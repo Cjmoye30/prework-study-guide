@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prework Study Guide</title>
+
+  <!-- Connecting our Style CSS Sheet -->
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
@@ -15,70 +18,89 @@
   </header>
   <main>
 
-    <section class="card" id="html-section"></section>
+    <section class="card" id="html-section">
+      <h2>HTML</h2>
 
-    <h2>HTML</h2>
+      <ul>
+        <li>HTML - composed of <b>elements</b> which tell the page how to be displayed. And <b>tags</b> - which define
+          the
+          elements.</li>
+        <li>HTML code should be structured and organzied to firstly give the webpage a good foundation before proceeding
+          to anything additional.</li>
 
-    <ul>
-      <li>HTML - composed of <b>elements</b> which tell the page how to be displayed. And <b>tags</b> - which define the
-        elements.</li>
-      <li>HTML code should be structured and organzied to firstly give the webpage a good foundation before proceeding
-        to anything additional.</li>
+        <li>The <b>head</b> element contains information about the webpage. This metadata helps the browser render the
+          page correctly. This is a semantic element</li>
 
-      <li>The <b>head</b> element contains information about the webpage. This metadata helps the browser render the
-        page correctly. This is a semantic element</li>
+        <li>The <b>body</b> element contains the contents of the page. This is a semantic element.</li>
+        <li>Elements nested inside other elements are called <b>child elements</b>.</li>
 
-      <li>The <b>body</b> element contains the contents of the page. This is a semantic element.</li>
-      <li>Elements nested inside other elements are called <b>child elements</b>.</li>
+        <li>HTML <b>attributes</b> define additional characteristics about the elements which are alwasy defined in the
+          opening tag.</li>
+      </ul>
 
-      <li>HTML <b>attributes</b> define additional characteristics about the elements which are alwasy defined in the
-        opening tag.</li>
-    </ul>
+    </section>
 
-    <section class="card" id="css-section"></section>
 
-    <h2>CSS Section</h2>
 
-    <ul>
-      <!-- <li></li>
+    <section class="card" id="css-section">
+      <h2>CSS Section</h2>
+
+      <ul>
+        <li>There are three ways to style text: inline, internal, <b>external</b>.</li>
+        <li>Inline and internal are not as common and only used on a case by case basis. We will 99% of the time be using external - our linked CSS Styles sheet.</li>
+        <li>Margin defines the space we want outside our element, while padding defines the space we want inside our element.</li>
+        <li><b>Display: block</b> - this assigns the element to a new line on the page. Headers and paragraphs use block as default.</li>
+        <li><b>Display: inLine</b> - text will not break onto a new line. </li>
+        <li><b>Display: flex</b> - changes the inner display to flex and behave to flexbox</li>
+        <li>Semantic elements (h, p, img, etc) can be declared using their normal selector to give them their values.</li>
+        <li>Classes are defined/called by using a '.' before the class name.</li>
+        <li>Multiple classes or elements can be declared by using a comma in the CSS selector</li>
+        <li>...</li>
+      </ul>
+    </section>
+
+
+
+    <section class="card" id="git-section">
+      <h2>Git & Github Section</h2>
+      <h3>Workflow and associated Commands</h3>
+
+      <ul>
+        <li><b>git status</b> - shows the current branch you're located in.</li>
+        <li><b>git checkout -b feature/[name of the branch you're wanting to create]</b> - Creates a new branch.
+          Necessary
+          to create a branch off of your updated main branch. Common standard to always call new branches features.</li>
+        <li><b>git add -A</b> - adds all modifications made to the staging area.</li>
+        <li><b>git commit -m "[commit message]"</b> - Adds a commit message which must be written inside quotation
+          marks.
+        </li>
+        <li><b>git pull origin main</b> - pulls in the most recent main branch. Important to always do this when others
+          are working on the same project to have the most recent code. If not, issues can occur.</li>
+        <li><b>git push origin feature/[name of the ]</b> - pushes your feature up to the main branch.</li>
+        <li>Once the code has been pushed successfully, it shows in your Github dashboard as a pull request which must
+          be reviewed (preferably by your colleagues) before it can be merged into the main branch.</li>
+        <!-- <li></li>
+        <li></li>
+        <li></li> -->
+      </ul>
+    </section>
+
+
+
+    <section class="card" id="javascript-section">
+
+      <h2>Javascript Section</h2>
+
+      <ul>
+        <!-- <li></li>
       <li></li>
       <li></li>
       <li></li>
       <li></li> -->
-    </ul>
 
-    <section class="card" id="git-section"></section>
+      </ul>
+    </section>
 
-    <h2>Git & Github Section</h2>
-    <h3>Workflow and associated Commands</h3>
-
-    <ul>
-      <li><b>git status</b> - shows the current branch you're located in.</li>
-      <li><b>git checkout -b feature/[name of the branch you're wanting to create]</b> - Creates a new branch. Necessary
-        to create a branch off of your updated main branch. Common standard to always call new branches features.</li>
-      <li><b>git add -A</b> - adds all modifications made to the staging area.</li>
-      <li><b>git commit -m "[commit message]"</b> - Adds a commit message which must be written inside quotation marks.
-      </li>
-      <li><b>git pull origin main</b> - pulls in the most recent main branch. Important to always do this when others
-        are working on the same project to have the most recent code. If not, issues can occur.</li>
-      <li><b>git push origin feature/[name of the ]</b> - pushes your feature up to the main branch.</li>
-      <li>Once the code has been pushed successfully, it shows in your Github dashboard as a pull request which must be reviewed (preferably by your colleagues) before it can be merged into the main branch.</li>
-      <!-- <li></li>
-      <li></li>
-      <li></li> -->
-    </ul>
-
-    <section class="card" id="javascript-section"></section>
-
-    <h2>Javascript Section</h2>
-
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
 
   </main>
 
