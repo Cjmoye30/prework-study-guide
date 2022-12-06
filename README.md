@@ -27,7 +27,6 @@ This Study Guide Webpage is organzied into 5 sections - one of which is dedicate
 Each section lists key elements needed to grasp in order to have a solid foundation before starting the bootcamp.
 As the class progresses, more notes and sections will be added to aid in memory retention.
 
-![alt text](assets/images/screenshot.png)
 
 ## Credits
 
